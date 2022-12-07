@@ -28,6 +28,7 @@ public class csvTOgv {
           String distance = line.substring(temp2 + 2);
           String text = "    " + origin + " -- " + destination + "[distance=" + distance + "];\n";
           end = end + text;
+          br.close();
         }
       }
 
