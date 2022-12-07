@@ -1,18 +1,7 @@
-## Getting Started
+Hey All,
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This Program converts a CSV file to a GV file(a variant of DOT files) and save it to name specified.
+A sample CSV file is given with its gv generated equivalent.
+To use the program, just add the path of the CSV file and enter the desired name of the GV file.
 
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Credits: Aniket Tuli, Fall 2022, UW-Madison
