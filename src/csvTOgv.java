@@ -6,7 +6,7 @@ public class csvTOgv {
   public static void main(String[] args) throws Exception {
 
     // Enter your output GV file name here.
-    String gvFile = "RoadNetwork";
+    String gvFile = "RoadNetworks";
 
     String end = "graph " + gvFile + "{ \n\n";
     try {
@@ -28,10 +28,9 @@ public class csvTOgv {
           String distance = line.substring(temp2 + 2);
           String text = "    " + origin + " -- " + destination + "[distance=" + distance + "];\n";
           end = end + text;
-          br.close();
         }
       }
-
+      br.close();
       end = end + "\n}";
       Path fileName = Path.of("src\\" + gvFile + ".gv");
       Files.writeString(fileName, end);
